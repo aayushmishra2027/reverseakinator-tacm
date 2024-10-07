@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Set your OpenAI API key
-openai.api_key = "your-openai-api-key"
+openai.api_key = "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"
 
 # Store the user's answers for dynamic question generation
 game_state = {
